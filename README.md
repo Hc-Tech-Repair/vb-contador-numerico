@@ -6,11 +6,11 @@ Este proyecto es una aplicación de escritorio desarrollada en Visual Basic usan
 
 ## 🖥️ Captura de pantalla
 
-### Vista inicial:
-![Vista inicial](contador_numerico_ejemplo.png)
+### Vista inicial:contador_numerico_vacio.png
+![Vista inicial](contador_numerico_vacio.png)
 
 ### Vista con resultado generado:
-![Resultado](./7fbb2d3b-739a-403e-873a-6779c55a6a28.png)
+![Resultado](contador_numerico_ejemplo.png)
 
 ---
 
