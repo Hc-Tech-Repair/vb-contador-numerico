@@ -36,27 +36,15 @@ Al presionar el botón **“Calcular”**, el programa:
 
 ---
 
-## 💡 Código principal
+# 📄 Cómo ejecutar el programa
 
-```vb
-Private Sub CalcularBtn_Click(sender As Object, e As EventArgs) Handles CalcularBtn.Click
-    Dim i As Integer
-    Dim Repeticiones As Integer
-    Dim Incremental As Integer
-    Dim Indice As Integer
+1. Abre el archivo `Tarea 4.2.sln` con Visual Studio.
+2. Presiona `F5` o haz clic en “Iniciar” para ejecutar.
 
-    Indice = RepeticionesTxt.Text - 1
-    Dim Valores(Indice) As Integer
+---
 
-    LimpiarListBox()
+## 👨‍💻 Autor
 
-    Repeticiones = RepeticionesTxt.Text - 1
-    Incremental = Val(ValorInicialTxt.Text)
-
-    For i = 0 To Repeticiones
-        Valores(i) = Incremental
-        Incremental += Val(IncremetalTxt.Text)
-    Next i
-
-    AddValues(Valores)
-End Sub
+Harry Correa  
+Estudiante de Sistemas de Información y Tecnología en Redes  
+HC Tech Repair
